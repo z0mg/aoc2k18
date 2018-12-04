@@ -44,7 +44,6 @@ public class Day4Solver
 
       if (line.contains("Guard"))
       {
-        System.out.println("got guard line: " + line);
         int guardId = Integer.valueOf(line.split("\\s")[3].replace("#", ""));
         System.out.println("got guard: " + guardId);
 
